@@ -99,6 +99,40 @@ p {
     padding: 10px;
     margin-top: 10px;
 }
+.informacionextra{
+    display: grid;
+    margin-top: 40px;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "card4"
+    "card5";
+}
+
+.card4 {
+    grid-area: card4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #0d0f41;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.card5 {
+    grid-area: card5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #0d0f41;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
 h2{
     text-align: center;
 }
